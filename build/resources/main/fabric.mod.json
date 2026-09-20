@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "grass",
+	"version": "1.0.0",
+	"name": "dont touch grass",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/grass/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.DontTouchGrass"
+		],
+		"fabric-datagen": [
+			"com.example.DontTouchGrassDataGenerator"
+		]
+	},
+	"mixins": [
+		"grass.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

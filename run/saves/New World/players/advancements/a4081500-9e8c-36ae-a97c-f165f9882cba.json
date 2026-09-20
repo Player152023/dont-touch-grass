@@ -1,0 +1,36 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2026-09-19 21:36:35 +0200",
+      "minecraft:forest": "2026-09-19 21:37:32 +0200",
+      "minecraft:snowy_plains": "2026-09-19 21:36:34 +0200",
+      "minecraft:plains": "2026-09-19 21:36:14 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-09-19 21:36:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/golden_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-09-19 21:36:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-09-19 21:36:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-09-19 21:36:13 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
+}
